@@ -31,6 +31,9 @@ function isDivideBy(number, a, b) {
 training project
 https://tayahanchar.github.io/safari/
 
+## Education
+University: Francisk Skorina Gomel State University, historian-museologist
+
 
 
 
