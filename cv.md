@@ -34,6 +34,7 @@ https://tayahanchar.github.io/safari/
 ## Education
 University: Francisk Skorina Gomel State University, historian-museologist
 
-
+## English
+English level - A1
 
 
