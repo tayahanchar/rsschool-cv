@@ -1,1 +1,1 @@
-https://tayahanchar.github.io/rsschool-cv/
+https://tayahanchar.github.io/rsschool-cv/cv
