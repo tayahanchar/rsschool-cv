@@ -27,6 +27,10 @@ function isDivideBy(number, a, b) {
   return number%a==0 && number%b==0
 } 
 ```
+## Experience
+training project
+https://tayahanchar.github.io/safari/
+
 
 
 
