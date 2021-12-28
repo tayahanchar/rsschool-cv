@@ -21,7 +21,12 @@ I am currently studying JavaScript and in the future, I plan to enhance my skill
 * VS Code
 * Figma (for developers )
 
-
+## Code example
+``` 
+function isDivideBy(number, a, b) {
+  return number%a==0 && number%b==0
+} 
+```
 
 
 
