@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 200px 1fr 200px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
