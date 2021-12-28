@@ -142,12 +142,12 @@
   background-color: #fecb00;
 }
 
-.contacts__title {
+.title {
   font-size: 36px;
   padding-bottom: 20px;
 }
 
-.contacts__title::before {
+.title::before {
   content: " ";
   background-color: #0f0f12;
   width: 6%;
@@ -158,6 +158,16 @@
 .contacts__item {
   padding-bottom: 10px;
   font-size: 22px;
+}
+
+.about {
+  padding: 40px;
+  width: 65%;
+}
+
+.about__text {
+  font-size: 22px;
+  text-indent: 25px;
 }
 
 .footer {
