@@ -12,3 +12,16 @@ My background includes extended experience of interaction with clients (particul
 
 
 I am currently studying JavaScript and in the future, I plan to enhance my skills in front-end development.
+
+## Skills
+* HTML
+* CSS (+ BEM methodology)
+* JavaScript (Basic)
+* Git/GitHub
+* VS Code
+* Figma (for developers )
+
+
+
+
+
