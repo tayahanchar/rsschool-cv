@@ -1,13 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
   list-style: none;
+  box-sizing: border-box;
 }
 
 .grid-container {
   display: grid;
-  grid-template-rows: 140px 1fr 200px;
+  grid-template-rows: 170px 1fr 200px;
+  grid-template-areas: "header"         
+                        "main"                
+                        "footer"; 
   min-height: 100vh;
 }
 
@@ -17,13 +20,13 @@
 }
 
 .header {
+  grid-area: header;
   margin-top: 50px;
 }
 
-.header__grid {
+.header__flex {
   display: flex;
-  height: 140px;
-  padding: 0 50px;
+  height: 120px;
 }
 
 .location {
@@ -56,4 +59,67 @@
 
 .list__item {
   font-size: 22px;
+}
+
+.main {
+  grid-area: main;
+}
+
+.me {
+  background-color: #0f0f12;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.me::before {
+  content: " ";
+  background-color: #0f0f12;
+  height: 360px;
+  width: 70px;
+  position: absolute;
+  right: -70px;
+}
+
+.me::after {
+  content: " ";
+  background-color: #0f0f12;
+  height: 360px;
+  width: 70px;
+  position: absolute;
+  left: -70px;
+}
+
+.me__photo {
+  background-image: url(assets/img/my_photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 360px;
+  width: 35%;
+}
+
+.me__descr {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-end;
+  padding: 40px;
+  width: 65%;
+}
+
+.me__title {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #f0eeee;
+}
+
+.me__text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #f0eeee;
+}
+
+.footer {
+  grid-area: footer;
 }
