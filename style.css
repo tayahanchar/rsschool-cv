@@ -11,7 +11,7 @@
   display: grid;
   grid-template-rows: 120px 1fr 90px;
   grid-template-areas: "header"         
-                        "main"                
+                        "content"                
                         "footer"; 
   min-height: 100vh;
 }
@@ -28,6 +28,14 @@
 .header__flex {
   display: flex;
   height: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  background-color: #fecb00;
 }
 
 .nav {
@@ -47,17 +55,8 @@
   font-size: 22px;
 }
 
-.main {
-  grid-area: main;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 5%;
-  width: 35%;
-  background-color: #fecb00;
+.content {
+  grid-area: content;
 }
 
 .me {
@@ -76,14 +75,6 @@
   left: -120px;
 }
 
-.me__title::before {
-  content: " ";
-  background-color: #fecb00;
-  width: 25%;
-  height: 3px;
-  position: absolute;
-}
-
 .me__photo {
   background-image: url(assets/img/my_photo.jpg);
   background-size: cover;
@@ -98,7 +89,7 @@
   flex-direction: column;
   align-self: center;
   align-items: flex-end;
-  padding: 20px 100px;
+  padding-right: 50px;
   width: 65%;
 }
 
@@ -106,6 +97,14 @@
   font-size: 80px;
   text-transform: uppercase;
   color: #f0eeee;
+}
+
+.me__title::before {
+  content: " ";
+  background-color: #fecb00;
+  width: 25%;
+  height: 3px;
+  position: absolute;
 }
 
 .me__text {
@@ -119,29 +118,39 @@
   width: 100%;
 }
 
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0 50px 5%;
+  width: 35%;
+  background-color: #fecb00;
+  font-size: 22px;
+}
+
 .contacts {
   display: flex;
   flex-direction: column;
-  padding: 50px 5%;
-  width: 35%;
-  background-color: #fecb00;
+  gap: 30px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .location {
   display: flex;
-  align-items: center;
-  padding-top: 20px;
   gap: 10px;
-  font-size: 22px;
 }
 
 .location__img {
-  height: 30px;
+  height: 20px;
 }
 
 .title {
   font-size: 36px;
-  padding-bottom: 20px;
 }
 
 .title::before {
@@ -152,18 +161,65 @@
   position: absolute;
 }
 
-.contacts__item {
-  padding-bottom: 10px;
-  font-size: 22px;
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills__title {
+  font-size: 36px;
+}
+
+.skills__title::before {
+  content: " ";
+  background-color: #0f0f12;
+  width: 4%;
+  height: 3px;
+  position: absolute;
+}
+
+.english {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.english__title {
+  font-size: 36px;
+}
+
+.english__title::before {
+  content: " ";
+  background-color: #0f0f12;
+  width: 4%;
+  height: 3px;
+  position: absolute;
+}
+
+.main {
+  width: 65%;
+  padding: 50px 20px 50px 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .aboutMe {
-  padding: 50px 20px 20px 20px;
-  width: 65%;
-}
-
-.aboutMe__descr {
-  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .text {
@@ -172,7 +228,9 @@
 }
 
 .education {
-  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .education__list li {
@@ -180,9 +238,11 @@
   list-style-position: inside;
  }
 
- .experience {
-  padding-bottom: 20px;
- }
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
 .experience__list {
   display: flex;
@@ -195,65 +255,19 @@
  list-style-position: inside;
 }
 
-.attainments {
-  display: flex;
-}
-
-.knowledge {
-  display: flex;
-  flex-direction: column;
-  padding-left: 5%;
-  padding-bottom: 30px;
-  width: 35%;
-  font-size: 22px;
-  background-color: #fecb00;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
-}
-
-.skills__title {
-  font-size: 36px;
-  padding-bottom: 20px;
-}
-
-.skills__title::before {
-  content: " ";
-  background-color: #0f0f12;
-  width: 4%;
-  height: 3px;
-  position: absolute;
-}
-
-.skills__item {
-  padding-bottom: 10px;
-}
-
-.english__title {
-  font-size: 36px;
-  padding-bottom: 20px;
-}
-
-.english__title::before {
-  content: " ";
-  background-color: #0f0f12;
-  width: 4%;
-  height: 3px;
-  position: absolute;
-}
-
 .code {
-  padding: 0 20px;
-  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
+
 
 pre {
-  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  font-size: 18px;
   background-color: #fecb006d;
-  width: 100%;
 }
 
 .footer {
