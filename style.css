@@ -34,7 +34,7 @@
 .location {
   display: flex;
   align-items: center;
-  padding-left: 40px;
+  padding-left: 5%;
   width: 35%;
   gap: 10px;
   margin-right: 5px;
@@ -136,7 +136,7 @@
 }
 
 .contacts {
-  padding: 40px 80px;
+  padding: 40px 5%;
   width: 35%;
   margin-right: 5px;
   background-color: #fecb00;
@@ -178,7 +178,21 @@
   padding-bottom: 50px;
 }
 
+.education__list li {
+  list-style-image: url(./assets/svg/array.svg);
+  list-style-position: inside;
+ }
 
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience__list li {
+ list-style-image: url(./assets/svg/array.svg);
+ list-style-position: inside;
+}
 
 .footer {
   grid-area: footer;
