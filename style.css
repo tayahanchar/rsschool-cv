@@ -160,15 +160,25 @@
   font-size: 22px;
 }
 
-.about {
+.aboutMe {
   padding: 40px;
   width: 65%;
 }
 
-.about__text {
+.aboutMe__descr {
+  padding-bottom: 40px;
+}
+
+.text {
   font-size: 22px;
   text-indent: 25px;
 }
+
+.education {
+  padding-bottom: 50px;
+}
+
+
 
 .footer {
   grid-area: footer;
