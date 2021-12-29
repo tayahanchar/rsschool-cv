@@ -31,21 +31,6 @@
   height: 120px;
 }
 
-.location {
-  display: flex;
-  align-items: center;
-  padding-left: 5%;
-  width: 35%;
-  gap: 10px;
-  margin-right: 5px;
-  font-size: 22px;
-  background-color: #fecb00;
-}
-
-.location__img {
-  height: 30px;
-}
-
 .nav {
   width: 65%;
 }
@@ -136,10 +121,24 @@
 }
 
 .contacts {
+  display: flex;
+  flex-direction: column;
   padding: 40px 5%;
   width: 35%;
   margin-right: 5px;
   background-color: #fecb00;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+  font-size: 22px;
+}
+
+.location__img {
+  height: 30px;
 }
 
 .title {
@@ -220,7 +219,7 @@
 .skills__title::before {
   content: " ";
   background-color: #0f0f12;
-  width: 3%;
+  width: 4%;
   height: 3px;
   position: absolute;
 }
