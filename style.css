@@ -52,6 +52,16 @@
   grid-area: main;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 5%;
+  width: 35%;
+  margin-right: 5px;
+  background-color: #fecb00;
+}
+
 .me {
   background-color: #0f0f12;
   display: flex;
