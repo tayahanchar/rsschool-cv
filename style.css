@@ -9,7 +9,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 170px 1fr 200px;
+  grid-template-rows: 120px 1fr 90px;
   grid-template-areas: "header"         
                         "main"                
                         "footer"; 
@@ -23,7 +23,6 @@
 
 .header {
   grid-area: header;
-  margin-top: 50px;
 }
 
 .header__flex {
@@ -68,15 +67,6 @@
   position: relative;
 }
 
-.me::before {
-  content: " ";
-  background-color: #0f0f12;
-  height: 360px;
-  width: 120px;
-  position: absolute;
-  right: -120px;
-}
-
 .me::after {
   content: " ";
   background-color: #0f0f12;
@@ -108,7 +98,7 @@
   flex-direction: column;
   align-self: center;
   align-items: flex-end;
-  padding: 20px;
+  padding: 20px 100px;
   width: 65%;
 }
 
@@ -205,10 +195,6 @@
  list-style-position: inside;
 }
 
-.footer {
-  grid-area: footer;
-}
-
 .attainments {
   display: flex;
 }
@@ -267,4 +253,29 @@
 pre {
   font-size: 22px;
   background-color: #fecb006d;
+  width: 100%;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.footer__content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #0f0f12;
+}
+
+.footer__text {
+  font-size: 22px;
+  color: #f0eeee;
+}
+
+.footer__list {
+  display: flex;
+  gap: 10px;
 }
