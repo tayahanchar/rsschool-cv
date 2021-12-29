@@ -61,6 +61,11 @@
 
 .nav__item {
   font-size: 22px;
+  padding: 7px;
+}
+
+.nav__item:hover {
+  background-color: #fecb006d;
 }
 
 .content {
@@ -147,7 +152,21 @@
 .contacts__list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.contacts__item {
+  padding: 5px;
+}
+
+.contacts__link {
+  color: inherit;
+}
+
+.contacts__item:hover {
+  background-color: #0f0f124c;
+  color:#f0eeee;
 }
 
 .location {
