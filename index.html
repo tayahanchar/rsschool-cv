@@ -7,13 +7,16 @@
   <link rel="stylesheet" href="style.css">
   <title>cv</title>
 </head>
+
 <body>
   <div class="grid-container">
     <header class="header">
       <div class="container">
         <div class="header__flex">
           <div class="logo">
-            <a class="logo__link" href="https://rs.school/js/" target="_blank"><img class="logo__img" src="./assets/svg/rs_school_js.svg" alt="rsschool"></a>
+            <a class="logo__link" href="https://rs.school/js/" target="_blank">
+              <img class="logo__img" src="./assets/svg/rs_school_js.svg" alt="rsschool">
+            </a>
           </div>
   
           <nav class="nav">
@@ -35,7 +38,6 @@
 
     <div class="content">
       <div class="container">
-
         <section class="me">
           <div class="me__photo"></div>
     
@@ -47,15 +49,21 @@
 
         <div class="info">
           <aside class="aside">
-          
-            <div class="contacts" id="contacts">
+            <section class="contacts" id="contacts">
               <h2 class="title">Contacts</h2>
   
               <ul class="contacts__list">
-                <li class="contacts__item"><a class="contacts__link" href="tel:+37063656194">Phone: +37063656194</a></li>
-                <li class="contacts__item"><a class="contacts__link" href="mailto:tayahanchar@gmail.com" >E-mail<span class="email">: tayahanchar@gmail.com</span></a></li>
-                <li class="contacts__item"><a class="contacts__link" href="https://github.com/tayahanchar" target="_blank">GitHub: tayahanchar
-                </a></li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="tel:+37063656194">Phone: +37063656194</a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="mailto:tayahanchar@gmail.com" >E-mail<span class="email">: tayahanchar@gmail.com</span>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="https://github.com/tayahanchar" target="_blank">GitHub: tayahanchar
+                  </a>
+                </li>
               </ul>
   
               <div class="location">
@@ -63,10 +71,10 @@
       
                   <p class="location__text">Vilnius, Lithuania</p>
               </div>
-            </div>
+            </section>
 
             <div class="knowledge">
-              <div class="skills" id="skills">
+              <section class="skills" id="skills">
                 <h2 class="skills__title">Skills</h2>
       
                 <ul class="skills__list">
@@ -77,12 +85,12 @@
                   <li class="skills__item">VS Code</li>
                   <li class="skills__item">Figma (for developers)</li>
                 </ul> 
-              </div>
+              </section>
       
-              <div class="english" id="english">
+              <section class="english" id="english">
                 <h2 class="english__title">English</h2>
                 <p class="english__text">English level - A1</p>
-              </div>
+              </section>
             </div>
           </aside>
   
@@ -92,7 +100,6 @@
 
               <div class="text">
                 <p>My background includes extended experience of interaction with clients (particularly, in hiring personal and sales), so I have good communication skills.</p>
-
                 <p>I am currently studying JavaScript and in the future, I plan to enhance my skills in front-end development.</p>
               </div>
             </section>
@@ -122,7 +129,7 @@
                 <code>
     
   function isDivideBy(number, a, b) {
-  return number%a==0 && number%b==0
+    return number %a === 0 && number % b === 0;
   }
                 </code>
               </pre>
@@ -138,9 +145,21 @@
           <p class="footer__text">2022</p>
 
           <ul class="footer__list">
-            <li><a class="inst" href="https://www.instagram.com/taya_hanchar/" target="_blank"><img src="./assets/svg/inst.svg" alt="inst"></a></li>
-            <li><a class="inst" href="https://github.com/tayahanchar" target="_blank"><img src="./assets/svg/gitHub.svg" alt="gitHub"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100055674085903" target="_blank"><img src="./assets/svg/facebook.svg" alt="facebook"></a></li>
+            <li>
+              <a href="https://www.instagram.com/taya_hanchar/" target="_blank">
+                <img src="./assets/svg/inst.svg" alt="inst">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tayahanchar" target="_blank">
+                <img src="./assets/svg/gitHub.svg" alt="gitHub">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100055674085903" target="_blank">
+                <img src="./assets/svg/facebook.svg" alt="facebook">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
