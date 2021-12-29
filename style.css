@@ -137,7 +137,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 0 50px 5%;
+  padding: 50px 0 50px 3%;
   width: 35%;
   background-color: #fecb00;
   font-size: 22px;
@@ -227,6 +227,7 @@
   flex-direction: column;
   gap: 30px;
 }
+
 .english__title {
   font-family: "Merriweather", serif;
   font-size: 36px;
@@ -329,3 +330,105 @@ code {
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 1440px) {
+  .me__title {
+    font-size: calc(18px + (80 - 18) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .me__text {
+    font-size: calc(8px + (24 - 8) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .title {
+    font-size: calc(22px + (36 - 22) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .skills__title {
+    font-size: calc(22px + (36 - 22) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .english__title {
+    font-size: calc(22px + (36 - 22) * ((100vw - 320px) / (1440 - 320)));
+  }
+}
+
+@media (max-width: 780px) {
+  .contacts__link {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  pre {
+    font-size: calc(8px + (18 - 8) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .nav__item {
+    font-size: calc(14px + (22 - 14) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .me__photo {
+    height: 200px;
+  }
+
+  .location__text {
+    font-size: calc(12px + (22 - 12) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .text {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .english__text {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+  .skills__item {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1440 - 320)));
+  }
+
+}
+
+
+
+@media (max-width: 640px) {
+  .title::before {
+    display: none;
+  }
+
+  .skills__title::before {
+    display: none;
+  }
+
+  .english__title::before {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .me__photo {
+    height: 100px;
+  }
+
+  .logo__img {
+    width: 100px;
+  }
+
+  .me__title::before {
+    display: none;
+  }
+
+  .location {
+    gap: 2px;
+  }
+
+  .location__img {
+    height: 12px;
+  }
+}
+
+
+
