@@ -168,7 +168,7 @@
 }
 
 .aboutMe {
-  padding: 20px;
+  padding: 50px 20px 20px 20px;
   width: 65%;
 }
 
@@ -191,7 +191,7 @@
  }
 
  .experience {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
  }
 
 .experience__list {
@@ -246,11 +246,6 @@
   padding-bottom: 10px;
 }
 
-.code {
-  padding: 0 20px;
-  width: 65%;
-}
-
 .english__title {
   font-size: 36px;
   padding-bottom: 20px;
@@ -262,4 +257,14 @@
   width: 4%;
   height: 3px;
   position: absolute;
+}
+
+.code {
+  padding: 0 20px;
+  width: 65%;
+}
+
+pre {
+  font-size: 22px;
+  background-color: #fecb006d;
 }
