@@ -198,3 +198,34 @@
   grid-area: footer;
 }
 
+.knowledge {
+  display: flex;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  width: 35%;
+  margin-right: 5px;
+  font-size: 22px;
+  background-color: #fecb00;
+}
+
+.skills__title {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.skills__title::before {
+  content: " ";
+  background-color: #0f0f12;
+  width: 3%;
+  height: 3px;
+  position: absolute;
+}
+
+.skills__item {
+  padding-bottom: 10px;
+
+}
