@@ -20,8 +20,7 @@
   grid-template-rows: 120px 1fr 90px;
   grid-template-areas: "header"         
                         "content"                
-                        "footer"; 
-  min-height: 100vh;
+                        "footer";
 }
 
 .container {
