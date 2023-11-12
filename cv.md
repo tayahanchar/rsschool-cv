@@ -23,3 +23,39 @@ I am currently studying JavaScript and React. In the future, I plan to enhance m
 * JavaScript
 * TypeScript
 * React
+
+## Code example
+
+```
+function showListOfFilms(arr) {
+    return  arr.reduce((acc, item) => [...acc, item.name], []).join(', ');
+}
+```
+
+## Education
+
+__University:__ Francisk Skorina Gomel State University, historian-museologist
+
+__Courses:__ 
+* IT Education Academy (ITEA) "HTML&CSS masterclass" (08.09.2021)
+* RS School Course "JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)" (12.03.2022)
+* Udemy Course "Современный JavaScript - с Нуля до Junior Специалиста"
+* RS School Course "JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)" (04.03.2023)
+* Udemy Course "Полный курс по JavaScript + React - с нуля до результата"
+* Udemy Course "Полный курс по современному TypeScript"
+
+## Experience
+
+Training projects:
+* [library] (https://tayahanchar.github.io/library/)
+* [museum] (https://tayahanchar.github.io/museum/)
+* [shelter](https://rolling-scopes-school.github.io/tayahanchar-JSFE2022Q1/shelter/)
+* [eco-sounds App](https://rolling-scopes-school.github.io/tayahanchar-JSFEPRESCHOOL/eco-sounds/)
+* [petStory](https://rolling-scopes-school.github.io/tayahanchar-JSFE2022Q3/online-zoo/pages/petstory/)
+* [portfolio](https://rolling-scopes-school.github.io/tayahanchar-JSFEPRESCHOOL/portfolio/)
+* [plants](https://rolling-scopes-school.github.io/tayahanchar-JSFEPRESCHOOL2022Q4/plants/)
+
+## Languages
+
+* English level - B1
+* German level - A1
