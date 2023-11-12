@@ -1,6 +1,5 @@
 # Taya Hanchar
 
-===
 
 ## Contacts
 * __Location:__ Vilnius, Lithuania
@@ -8,14 +7,11 @@
 * __GitHub:__ [tayahanchar](https://github.com/tayahanchar)
 * __Discord:__ Taya#1628
 
-===
 
 ## About Me
 
-<p>My background includes extended experience of interaction with clients (particularly, in hiring personal and sales), so I have good communication skills.
-I am currently studying JavaScript and React. In the future, I plan to enhance my skills in front-end development.<p>
-
-===
+My background includes extended experience of interaction with clients (particularly, in hiring personal and sales), so I have good communication skills.
+I am currently studying JavaScript and React. In the future, I plan to enhance my skills in front-end development.
 
 ## Skills
 
@@ -30,8 +26,6 @@ I am currently studying JavaScript and React. In the future, I plan to enhance m
 * TypeScript
 * React
 
-===
-
 ## Code example
 
 ```
@@ -39,8 +33,6 @@ function showListOfFilms(arr) {
     return  arr.reduce((acc, item) => [...acc, item.name], []).join(', ');
 }
 ```
-
-===
 
 ## Education
 
@@ -54,15 +46,11 @@ __Courses:__
 * Udemy Course "Полный курс по JavaScript + React - с нуля до результата"
 * Udemy Course "Полный курс по современному TypeScript"
 
-===
-
 ![itea sertificate](./itea.png)
 ![rsschool sertificate1](./rs1.png)
 ![rsschool sertificate2](./rs2.png)
 ![udemy sertificate](./udemy.jpg)
 ![english dom sertificate](./eng.jpg)
-
-===
 
 ## Experience
 
@@ -74,8 +62,6 @@ Training projects:
 * [petStory](https://rolling-scopes-school.github.io/tayahanchar-JSFE2022Q3/online-zoo/pages/petstory/)
 * [portfolio](https://rolling-scopes-school.github.io/tayahanchar-JSFEPRESCHOOL/portfolio/)
 * [plants](https://rolling-scopes-school.github.io/tayahanchar-JSFEPRESCHOOL2022Q4/plants/)
-
-===
 
 ## Languages
 
